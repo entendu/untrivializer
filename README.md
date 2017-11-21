@@ -2,6 +2,8 @@
 
 > a GitHub App built with [probot](https://github.com/probot/probot) that asks in Github comments if you're really sure something is trivial.
 
+![screenshot](docs/ss.png)
+
 ## But why tho
 
 A lot of times we'll write up an issue without really thinking it through:
