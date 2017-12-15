@@ -2,7 +2,7 @@ module.exports = robot => {
   robot.on('issue_comment', async context => {
     // Matches comments like, "This should be simple", "The is totally trivial",
     // "This is super trivial", etc.
-    const regex = /(should be|would be|could be|is) (|totally|completely|very|super|probably)(| )(simple|easy|trivial)/gi;
+    const regex = /(should be|would be|could be|is) (totally|completely|very|super|probably)? ?(simple|easy|trivial)/gi;
     const str = context.payload.comment.body;
 
     let m;
